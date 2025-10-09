@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-quickstart';
 
-  fileName: string = 'tiktokgzVkL92x8O3AqR0pBk1JOqhU9Qqfl4nT.txt';
-  fileContent: string = 'tiktok-developers-site-verification=gzVkL92x8O3AqR0pBk1JOqhU9Qqfl4nT';
+  fileName: string = 'tiktokfgp0XP5c3If8epW2vXYEJ5B2gTqUXqdD.txt';
+  fileContent: string = 'tiktok-developers-site-verification=fgp0XP5c3If8epW2vXYEJ5B2gTqUXqdD';
 
   downloadTextFile() {
     const content = this.fileContent;
