@@ -1,3 +1,14 @@
-<hr>
+<header>
+    <h1>Mon Application Angular</h1>
+    <nav>
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Accueil</a>
+        <a routerLink="/privacy-policy" routerLinkActive="active">Politique de confidentialité</a>
+        <a routerLink="/terms-of-service" routerLinkActive="active">Conditions d’utilisation</a>
+    </nav>
+</header>
 
-<button (click)="downloadTextFile()">{{fileName}}</button>
+
+
+
+
+<router-outlet></router-outlet>

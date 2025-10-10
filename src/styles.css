@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f5deb3;
+    font-family: 'Papyrus', 'Times New Roman', serif;
+    color: #3b2f2f;
+}
+
+header,
+footer {
+    background-color: #c5a100;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.75rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fdf5e6;
+}
+
+footer {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}

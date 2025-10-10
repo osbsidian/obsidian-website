@@ -11,6 +11,8 @@ export class AppComponent {
   fileName: string = 'tiktokfgp0XP5c3If8epW2vXYEJ5B2gTqUXqdD.txt';
   fileContent: string = 'tiktok-developers-site-verification=fgp0XP5c3If8epW2vXYEJ5B2gTqUXqdD';
 
+  currentYear = new Date().getFullYear();
+
   downloadTextFile() {
     const content = this.fileContent;
     const blob = new Blob([content], { type: 'text/plain' });

@@ -1,0 +1,40 @@
+.home {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(to bottom, #f5deb3, #e8cfa7);
+    color: #3b2f2f;
+    font-family: 'Papyrus', 'Times New Roman', serif;
+    min-height: 70vh;
+    border: 3px double #c5a100;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.home h2 {
+    font-size: 2.2rem;
+    color: #c5a100;
+    text-shadow: 1px 1px 3px #3b2f2f;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.actions .btn {
+    display: inline-block;
+    background: #c5a100;
+    color: #fdf5e6;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.actions .btn:hover {
+    background: #2e8b8b;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
