@@ -8,7 +8,6 @@ const routes: Routes = [
   { path: '', component: IndexComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'terms-of-service', component: TermsOfServiceComponent },
-  // Optionnel : redirection vers la page d’accueil pour toute route inconnue
   { path: '**', redirectTo: '' },
 ];
 
